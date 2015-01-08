@@ -1,0 +1,137 @@
+* {
+  border: 1px dotted red;
+}
+
+
+
+
+@-webkit-keyframes spin{
+  0%   { -webkit-transform: rotate(-100deg) translate(0px, 0px);}
+  100% { -webkit-transform: rotate(100deg) translate(10px, 75px);}
+}
+
+header {
+  background-color: purple;
+}
+
+body{
+  background-color:
+  rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%)
+  background-repeat: no-repeat;
+  background-image: url(http://i3.kym-cdn.com/photos/images/original/000/437/777/226.jpg);
+  background-size: cover;
+
+}
+
+h1 {
+  font-size: 65px;
+  -webkit-animation: spin 10s infinite;
+  text-align: center;
+  color: red;
+}
+
+
+
+
+ .profile {
+   display: block;
+   width: 200px;
+   height: 200px;
+ }
+
+
+.pic {
+  display: block;
+  vertical-align: middle;
+  background-position: center top;
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+
+  background-image: url(http://marciokenobi.files.wordpress.com/2012/04/01_angry_little_girls.jpg);
+  background-size: cover;
+}
+
+
+
+.profile .pic {
+  max-width: 80%;
+  max-height: 80%;
+  margin: auto;
+  display: block;
+}
+
+.profile .pic:hover {
+  max-width: 80%;
+  max-height: 80%;
+  margin: auto;
+  display: block;
+}
+
+
+.pic:hover {
+
+  display: block; /* 'convert' <a> to <div> */
+  margin-bottom: 10px;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  width: 200px;
+  height: 200px;
+  background-image: url(http://i1.cpcache.com/product_zoom/829702480/cute_hipster_sloth_flask.jpg?color=StainlessSteel&height=460&width=460&padToSquare=true);
+  background-size: cover;
+
+}
+
+.profile {
+  width: 180px;
+  background-color: blue;
+}
+
+@-webkit-keyframes wiggle
+{
+  10% {background-color:#ffbf00; }
+  20% {background-color:#F0A400; }
+  30% {background-color:#E18B00; }
+  40% {background-color:#D57100; }
+  50% {background-color:#CA5900; }
+  60% {background-color:#C14200; }
+  70% {background-color:#BA2B00; }
+  80% {background-color:#B40000; }
+  90% {background-color:#B60016; }
+  100%{background-color:green;   }
+}
+
+@-webkit-keyframes
+{
+  0% {margin-left:0; }
+  50% {text-shadow:10px 10px 50px white,
+    -10px -10px 50px white;
+    color:red;
+  }
+  100% {margin-left:80%; }
+}
+
+p {position:relative;
+  cursor:pointer;
+  -webkit-animation:text 5s linear infinite alternate;}
+
+
+  .profile { -webkit-animation:wiggle 5s linear infinite alternate; }
+
+  .lel {-webkit-transform: skew(1deg, 1deg);}
+
+
+.info {
+  font-size: 25px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 1px;
+  margin: 5x;
+  border: none;
+
+}
