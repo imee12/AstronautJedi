@@ -1,6 +1,5 @@
 
 
-
 @-webkit-keyframes spin{
   0%   { -webkit-transform: rotate(-100deg) translate(0px, 0px);}
   100% { -webkit-transform: rotate(100deg) translate(10px, 75px);}
@@ -154,6 +153,7 @@ p {position:relative;
 
 .info {
   font-size: 25px;
+  font-family: "Droid-Serif";
   color: red;
   list-style-type: none;
   padding: 0;
@@ -164,6 +164,7 @@ li {
   padding: 1px;
   margin: 5x;
   border: none;
+  list-style-type: none;
 
 }
 
